@@ -11,7 +11,7 @@ function calculate(expression) {
 function init() {
     const display = document.getElementById('display');
     const buttons = Array.from(document.getElementById('buttons').children);
-    let calculation = '';
+    let calculation = '' ;
 
     buttons.map(button => {
         button.addEventListener('click', (e) => {
